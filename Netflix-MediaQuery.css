@@ -1,0 +1,79 @@
+.container{
+    overflow: hidden;
+}
+@media (max-width:480px) {
+    .logo img{
+        height: 30px;
+    }
+    .bar{
+        gap: 40px;
+    }
+    .bar .button span{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    .line-1, .line-2{
+        font-size: 40px;
+    }
+    .line-3{
+        font-size: 20px;
+    }
+    .line-4{
+        font-size: 18px;
+    }
+    .line-5{
+        flex-direction: column;
+        height: 40px;
+        gap: 10px;
+    }
+    .button select{
+        width: 110px;
+    }
+    .button button{
+        width: 65px;
+    }
+    .line-5 input{
+        height: 45px;
+        width: 300px;
+    }
+    .line-5 button{
+        height: 50px;
+    }
+    .new{
+        padding-left: 5px;
+    }
+    section{
+        width: 95vw;
+    }
+    .more{
+        padding-left: 12px;
+    }
+    section-2{
+        width: 100vw;
+    }
+    .section{
+        width: 95vw;
+        flex-wrap: wrap;
+    }
+    .bx{
+        width: 40%;
+        font-size: 15px;
+        margin: 5px;
+    }
+    .question{
+        padding-left: 12px;
+    }
+    footer{
+        width: 95vw;
+    }
+    .number{
+        padding-left: 3px;
+    }
+    footer-2{
+        margin: 15px;
+    }
+    .last{
+        padding-left: 20px;
+    }
+}
